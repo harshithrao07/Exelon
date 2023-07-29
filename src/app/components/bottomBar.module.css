@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+
+.divx {
+    position: relative;
+    background-color: #202020;
+    width: auto;
+    height: 296px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 5px 0px 5px;
+    font-family: Heebo;
+}
+
+
+.logo31 {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.aboutUs1 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-heebo);
+    color: var(--neutral-black);
+    text-align: center;
+}
+
+.aboutUsContainer {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menuham {
+    width: 21px;
+    height: 21px;
+    display: none;
+    cursor: pointer;
+}
+
+.frameParent16 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.materialSymbolslocationOnOIcon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.div1,
+.loremIpsumDolor {
+    position: relative;
+    display: inline-block;
+    max-width: 253px;
+    max-height: 102px;
+    min-width: 208px;
+    flex-shrink: 0;
+}
+
+.div1 {
+    max-height: 19px;
+    height: auto;
+}
+
+.loremIpsumDolorSitAmetConParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.materialSymbolslocationOnOParent {
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.homeWrapper,
+.logo32Parent,
+.materialSymbolslocationOnOParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo32Parent {
+    align-items: flex-start;
+    gap: 60px;
+    padding-left: 20px;
+}
+
+.homeWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-items: center;
+}
+
+.caseStudieszz {
+    position: relative;
+    font-size: 14px;
+    font-family: Heebo;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    width: 205px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.frameContainer,
+.frameDiv,
+.frameParent1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.frameDiv,
+.frameParent1 {
+    top: 43px;
+}
+
+.frameParent1 {
+    top: 86px;
+}
+
+.privacyPolicy {
+    position: relative;
+    font-size: 14px;
+    font-family: Heebo;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    width: 253px;
+    height: 19px;
+    flex-shrink: 0;
+}
+
+.privacyPolicyWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 129px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frameGroup {
+    position: relative;
+    width: 510px;
+    height: 148px;
+}
+
+.frameParent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 233px;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    .frameParent16 {
+        flex-direction: column;
+        width: 100%;
+        background: linear-gradient(90deg, #8d01ff, #433dff);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        gap: 5px;
+        display: none;
+    }
+
+    .frameParent16 {
+        padding: 15px 0px 15px 0px;
+        align-items: center;
+    }
+
+    .aboutUs1 {
+        color: whitesmoke;
+        padding: 7px 20px 7px 20px;
+    }
+
+    .menuham {
+        width: 21px;
+        height: 21px;
+        display: block;
+    }
+
+    .divx {
+        position: relative;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 5px 40px 5px;
+    }
+
+    .materialSymbolslocationOnOIcon {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .div1,
+    .loremIpsumDolor {
+        position: relative;
+        display: inline-block;
+        max-width: 253px;
+        max-height: 102px;
+        min-width: 180px;
+        flex-shrink: 0;
+        font-size: 11px;
+    }
+
+    .div1 {
+        height: auto;
+    }
+
+    .loremIpsumDolorSitAmetConParent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .materialSymbolslocationOnOParent {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .homeWrapper,
+    .logo32Parent,
+    .materialSymbolslocationOnOParent {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .logo32Parent {
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .frameParent {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .caseStudieszz,
+    .privacyPolicy {
+        width: 100px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .frameDiv,
+    .frameContainer,
+    .frameParent1,
+    .privacyPolicyWrapper {
+        gap: 20px;
+    }
+
+    .frameGroup {
+        justify-content: center;
+        width: 220px;
+    }
+}
+
+
+@media only screen and (max-width: 1230px) and (min-width: 700px) {
+
+    .caseStudieszz,
+    .privacyPolicy {
+        width: 100px;
+    }
+
+    .frameParent {
+        gap: 100px;
+    }
+}
