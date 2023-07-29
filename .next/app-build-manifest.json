@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/case_studies/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/case_studies/[id]/page.css",
+      "static/chunks/app/case_studies/[id]/page.js"
+    ],
+    "/case_studies/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/case_studies/page.css",
+      "static/chunks/app/case_studies/page.js"
+    ]
+  }
+}

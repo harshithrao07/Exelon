@@ -1,0 +1,206 @@
+.home {
+  position: relative;
+  background-color: var(--neutrals-background);
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--neutral-black);
+  font-family: var(--font-heebo);
+}
+
+.logo31 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aboutUs1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-heebo);
+  color: var(--neutral-black);
+  text-align: center;
+}
+.aboutUsContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuham {
+  width: 21px;
+  height: 21px;
+  display: none;
+  cursor: pointer;
+}
+.frameParent16 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.div10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: auto;
+  /* position: absolute; */
+  padding: 20px 24px 20px 24px;
+  align-items: center;
+}
+.div4 {
+  position: relative;
+  padding-top: 107px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  text-align: left;
+  font-family: var(--font-coda);
+}
+.caseStudiesAndASentenceToParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-heebo);
+}
+.caseStudiesAnd4 {
+  position: relative;
+  display: inline-block;
+  width: 542px;
+  height: 91px;
+  flex-shrink: 0;
+}
+.aSentenceGoes4 {
+  position: relative;
+  display: inline-block;
+  width: 542px;
+  height: 44px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+  height: 24px;
+}
+.rathnaConstructions4 {
+  font-weight: 800;
+  position: relative;
+  display: inline-block;
+  width: 261px;
+}
+.loremIpsumDolor44 {
+  position: relative;
+  display: inline-block;
+  width: 261px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-heebo);
+  color: var(--neutral-dark-gray);
+  height: 71px;
+  flex-shrink: 0;
+}
+.rathnaConstructionsParent4 {
+  gap: var(--gap-3xs);
+  width: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper4 {
+  width: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.year4 {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.b4 {
+  color: var(--neutral-black);
+  height: 19px;
+  position: relative;
+  display: inline-block;
+  width: 255px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.yearParent4 {
+  gap: var(--gap-10xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent64 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-xs);
+  color: var(--neutral-dark-gray);
+  font-family: var(--font-heebo);
+}
+.frameParent54 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-111xl);
+}
+.frameChild44 {
+  position: relative;
+  border-radius: 0 var(--br-2xl) var(--br-2xl) 0;
+  background-color: #ffbf00;
+  width: 894px;
+  height: 373px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent44 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.inner4 {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: var(--br-2xl);
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 var(--padding-7xl);
+  align-items: flex-start;
+}
+.frameChild54 {
+  position: relative;
+  border-radius: 0 var(--br-2xl) var(--br-2xl) 0;
+  background-color: #febb1b;
+  width: 894px;
+  height: 373px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
